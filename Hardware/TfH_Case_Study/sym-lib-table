@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 0)
+  (lib (name "TfH_Case_Study-altium-import")(type "KiCad")(uri "${KIPRJMOD}/TfH_Case_Study-altium-import.kicad_sym")(options "")(descr ""))
+)
