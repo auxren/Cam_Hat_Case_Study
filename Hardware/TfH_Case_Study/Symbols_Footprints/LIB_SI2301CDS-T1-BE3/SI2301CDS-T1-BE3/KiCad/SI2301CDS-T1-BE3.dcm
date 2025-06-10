@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP SI2301CDS-T1-BE3
+D MOSFET P-CHANNEL 20-V (D-S)
+K
+F https://www.arrow.com/en/products/si2301cds-t1-be3/vishay?region=nac
+$ENDCMP
+#
+#End Doc Library

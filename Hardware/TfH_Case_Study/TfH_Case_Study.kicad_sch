@@ -4,1175 +4,221 @@
 	(generator_version "9.0")
 	(uuid "8161d2f4-776e-4840-9dde-fcd11740fdc7")
 	(paper "A4")
-	(lib_symbols
-		(symbol "Raspberry Pi Zero 2 W:SC1176"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at -25.42 39.3962 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "SC1176"
-				(at -25.4191 -40.6687 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "SC1176:MODULE_SC1176"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "DigiKey_Part_Number" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "SnapEDA_Link" "https://www.snapeda.com/parts/SC1176/Raspberry+Pi/view-part/?ref=snap"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Description_1" "The Raspberry Pi Zero 2 W SC1176 single board computer features a 1GHz quad-core Broadcom BCM2710A1 Arm Cortex-A53 processor and 512MB of RAM, making it a powerful solution for embedded computing applications. With 40 digital I/O lines and multiple expansion options including Bluetooth 4.2, BLE, HAT GPIO, and LAN, this SBC offers extensive connectivity and flexibility. Its compact size of 2.600 x 1.180 (66.04mm x 29.97mm) makes it ideal for space-constrained projects. Video outputs include Composite and HDMI, and it features a microSD storage interface and a USB 2.0 OTG port."
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Package" "None"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Check_prices" "https://www.snapeda.com/parts/SC1176/Raspberry+Pi/view-part/?ref=eda"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "STANDARD" "Manufacturer Recommendations"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "PARTREV" "April 2024"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MF" "Raspberry Pi"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MP" "SC1176"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MANUFACTURER" "Raspberry Pi"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(symbol "SC1176_0_0"
-				(rectangle
-					(start -25.4 -38.1)
-					(end 25.4 38.1)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin bidirectional line
-					(at -30.48 22.86 0)
-					(length 5.08)
-					(name "GPIO2/SDA1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -30.48 20.32 0)
-					(length 5.08)
-					(name "GPIO3/SCL"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -30.48 17.78 0)
-					(length 5.08)
-					(name "GPIO4/GPIO_GCLK"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -30.48 15.24 0)
-					(length 5.08)
-					(name "GPIO5"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "29"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -30.48 12.7 0)
-					(length 5.08)
-					(name "GPIO6"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "31"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -30.48 10.16 0)
-					(length 5.08)
-					(name "GPIO7/SPI_~{CE1}"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "26"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -30.48 7.62 0)
-					(length 5.08)
-					(name "GPIO8/SPI_~{CE0}"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "24"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -30.48 5.08 0)
-					(length 5.08)
-					(name "GPIO9/SPI_MISO"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "21"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -30.48 2.54 0)
-					(length 5.08)
-					(name "GPIO10/SPI_MOSI"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "19"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -30.48 0 0)
-					(length 5.08)
-					(name "GPIO11/SPI_SCLK"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "23"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -30.48 -2.54 0)
-					(length 5.08)
-					(name "GPIO12"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "32"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -30.48 -5.08 0)
-					(length 5.08)
-					(name "GPIO13"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "33"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -30.48 -7.62 0)
-					(length 5.08)
-					(name "GPIO14/TXD0"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -30.48 -12.7 0)
-					(length 5.08)
-					(name "ID_SD"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "27"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -30.48 -15.24 0)
-					(length 5.08)
-					(name "ID_SC"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "28"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 30.48 35.56 180)
-					(length 5.08)
-					(name "5V_2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 30.48 33.02 180)
-					(length 5.08)
-					(name "5V_4"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 30.48 30.48 180)
-					(length 5.08)
-					(name "3V3_1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 30.48 27.94 180)
-					(length 5.08)
-					(name "3V3_17"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "17"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 30.48 22.86 180)
-					(length 5.08)
-					(name "GPIO15/RXD0"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 30.48 20.32 180)
-					(length 5.08)
-					(name "GPIO16"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "36"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 30.48 17.78 180)
-					(length 5.08)
-					(name "GPIO17/GPIO_GEN0"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 30.48 15.24 180)
-					(length 5.08)
-					(name "GPIO18/GPIO_GEN1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 30.48 12.7 180)
-					(length 5.08)
-					(name "GPIO19"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "35"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 30.48 10.16 180)
-					(length 5.08)
-					(name "GPIO20"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "38"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 30.48 7.62 180)
-					(length 5.08)
-					(name "GPIO21"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "40"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 30.48 5.08 180)
-					(length 5.08)
-					(name "GPIO22/GPIO_GEN3"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "15"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 30.48 2.54 180)
-					(length 5.08)
-					(name "GPIO23/GPIO_GEN4"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "16"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 30.48 0 180)
-					(length 5.08)
-					(name "GPIO24/GPIO_GEN5"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "18"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 30.48 -2.54 180)
-					(length 5.08)
-					(name "GPIO25/GPIO_GEN6"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "22"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 30.48 -5.08 180)
-					(length 5.08)
-					(name "GPIO26"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "37"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 30.48 -7.62 180)
-					(length 5.08)
-					(name "GPIO27/GPIO_GEN2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "13"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 30.48 -17.78 180)
-					(length 5.08)
-					(name "GND_6"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 30.48 -20.32 180)
-					(length 5.08)
-					(name "GND_9"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 30.48 -22.86 180)
-					(length 5.08)
-					(name "GND_14"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "14"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 30.48 -25.4 180)
-					(length 5.08)
-					(name "GND_20"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "20"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 30.48 -27.94 180)
-					(length 5.08)
-					(name "GND_25"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "25"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 30.48 -30.48 180)
-					(length 5.08)
-					(name "GND_30"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "30"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 30.48 -33.02 180)
-					(length 5.08)
-					(name "GND_34"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "34"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 30.48 -35.56 180)
-					(length 5.08)
-					(name "GND_39"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "39"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-	)
-	(symbol
-		(lib_id "Raspberry Pi Zero 2 W:SC1176")
-		(at 139.7 88.9 0)
-		(unit 1)
+	(lib_symbols)
+	(sheet
+		(at 35.814 116.586)
+		(size 53.34 34.29)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "ba82ee06-9e8e-4b7e-853c-9bbb18648a1d")
-		(property "Reference" "U1"
-			(at 139.7 45.72 0)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "368b1d87-32f1-4dd2-8994-8cb0b104d196")
+		(property "Sheetname" "Camera"
+			(at 35.814 115.8744 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left bottom)
 			)
 		)
-		(property "Value" "Raspberry Pi Zero 2 W"
-			(at 139.7 48.26 0)
+		(property "Sheetfile" "Camera.kicad_sch"
+			(at 35.814 151.4606 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 			)
-		)
-		(property "Footprint" "RPi Zero 2 W:MODULE_SC1176"
-			(at 139.7 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 139.7 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 139.7 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DigiKey_Part_Number" ""
-			(at 139.7 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/SC1176/Raspberry+Pi/view-part/?ref=snap"
-			(at 139.7 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "The Raspberry Pi Zero 2 W SC1176 single board computer features a 1GHz quad-core Broadcom BCM2710A1 Arm Cortex-A53 processor and 512MB of RAM, making it a powerful solution for embedded computing applications. With 40 digital I/O lines and multiple expansion options including Bluetooth 4.2, BLE, HAT GPIO, and LAN, this SBC offers extensive connectivity and flexibility. Its compact size of 2.600 x 1.180 (66.04mm x 29.97mm) makes it ideal for space-constrained projects. Video outputs include Composite and HDMI, and it features a microSD storage interface and a USB 2.0 OTG port."
-			(at 139.7 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "None"
-			(at 139.7 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/SC1176/Raspberry+Pi/view-part/?ref=eda"
-			(at 139.7 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 139.7 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "April 2024"
-			(at 139.7 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MF" "Raspberry Pi"
-			(at 139.7 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "SC1176"
-			(at 139.7 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Raspberry Pi"
-			(at 139.7 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "21"
-			(uuid "cedb0a1e-bec5-41ab-b863-78df5135d9a1")
-		)
-		(pin "29"
-			(uuid "ff11ec62-998e-4d27-8d5b-e2b809c1e1d2")
-		)
-		(pin "8"
-			(uuid "66babc13-01c2-4304-aa2b-2480c68a1647")
-		)
-		(pin "33"
-			(uuid "ab4f4250-14d6-4d5f-8d7a-17819375284a")
-		)
-		(pin "3"
-			(uuid "c3443768-6dad-4f8c-b877-29ab40d12f2b")
-		)
-		(pin "5"
-			(uuid "08182e66-0492-4d02-9773-3ad9dafc5e1e")
-		)
-		(pin "15"
-			(uuid "4501001f-e601-4099-b4bd-a88aaaffdfc7")
-		)
-		(pin "16"
-			(uuid "75a96be8-d5b5-46ff-9ded-c6920ab0ddd9")
-		)
-		(pin "18"
-			(uuid "b18ffeec-b4a5-408f-9636-94a189af66c1")
-		)
-		(pin "22"
-			(uuid "f55dc650-90f7-4195-aa2d-e9f468087619")
-		)
-		(pin "37"
-			(uuid "2e76077b-7638-4d9a-885f-9518a4f7086d")
-		)
-		(pin "13"
-			(uuid "d72023d0-2b2d-45a8-9090-8405d90bf6bf")
-		)
-		(pin "6"
-			(uuid "ecbdeab9-2ad4-4a2b-be8c-05be72cde19e")
-		)
-		(pin "9"
-			(uuid "d9085c38-7f29-4208-974a-602418095549")
-		)
-		(pin "14"
-			(uuid "adeab365-d16c-49ee-a4ad-30048420c5c2")
-		)
-		(pin "20"
-			(uuid "4a59770c-a4b0-48a5-a73b-84fc6c29d5a4")
-		)
-		(pin "25"
-			(uuid "ba9bbcab-0ee2-441b-a183-4d309c010cf6")
-		)
-		(pin "30"
-			(uuid "a05f7346-a48c-40c6-8f2a-b6c8d13cc929")
-		)
-		(pin "34"
-			(uuid "720055af-e2fa-49a3-b742-3356599c524c")
-		)
-		(pin "39"
-			(uuid "ede342dd-4980-45f7-a907-54dc3a3dcaac")
-		)
-		(pin "28"
-			(uuid "23be1f64-0499-4094-98bc-aa8212c86608")
-		)
-		(pin "2"
-			(uuid "becd4c09-5a80-4117-97b6-566228f83f16")
-		)
-		(pin "4"
-			(uuid "e21fc24a-67d5-4fa4-b63e-e1698639a40d")
-		)
-		(pin "1"
-			(uuid "2600d8a3-3520-4228-87e7-f8b66c6a729d")
-		)
-		(pin "17"
-			(uuid "36b7e1a4-1e64-4711-b455-62389222ddfa")
-		)
-		(pin "10"
-			(uuid "afe5b149-1577-4002-b57e-061ec78d1bdc")
-		)
-		(pin "36"
-			(uuid "4c714775-c6f7-4973-8453-d1e45d68e541")
-		)
-		(pin "11"
-			(uuid "8a8ee33a-ae12-4d32-b05c-bcf74093e285")
-		)
-		(pin "12"
-			(uuid "a77e8134-229f-4e07-82f6-f9f739158d9d")
-		)
-		(pin "35"
-			(uuid "20d0058e-26eb-490c-ac77-66b53aa72475")
-		)
-		(pin "19"
-			(uuid "8a4f8cf9-8c3e-416d-b7ee-00734f8fdfe3")
-		)
-		(pin "38"
-			(uuid "235b7af2-6b35-4532-b58f-6bf2c7b879b6")
-		)
-		(pin "40"
-			(uuid "236befcb-1421-4053-9a3c-7e4080811fd7")
-		)
-		(pin "23"
-			(uuid "f95b2eaa-3878-4926-8c22-5c7e279a4c29")
-		)
-		(pin "32"
-			(uuid "59f039d7-97b7-46b9-b21d-7cda9da4f762")
-		)
-		(pin "27"
-			(uuid "f604fe5c-c49f-480d-9854-eff8f6381155")
-		)
-		(pin "26"
-			(uuid "9704dd2b-4eaa-4535-94a1-8425525a2463")
-		)
-		(pin "31"
-			(uuid "4fbbc0f7-b724-4046-8174-78acf3f88f0d")
-		)
-		(pin "7"
-			(uuid "fbbf2a7e-48d1-464d-90d5-dcb1af12babf")
-		)
-		(pin "24"
-			(uuid "ec3f0f6d-02c1-4c6d-9d4d-38c8859abee8")
 		)
 		(instances
-			(project ""
+			(project "TfH_Case_Study"
 				(path "/8161d2f4-776e-4840-9dde-fcd11740fdc7"
-					(reference "U1")
-					(unit 1)
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 139.7 63.5)
+		(size 26.924 42.672)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "72ca1783-031b-438d-8473-e1d656841cea")
+		(property "Sheetname" "RPi"
+			(at 139.7 62.7884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "RPi.kicad_sch"
+			(at 139.7 106.7566 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "I2C_SCL1" output
+			(at 166.624 71.882 0)
+			(uuid "998b4175-ed3e-44b3-903c-7cc87b1d6ee6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "I2C_SDA1" bidirectional
+			(at 166.624 74.93 0)
+			(uuid "d2cab9f1-7cb6-44d3-b83f-c255974219a9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "TfH_Case_Study"
+				(path "/8161d2f4-776e-4840-9dde-fcd11740fdc7"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 101.6 165.1)
+		(size 33.02 17.78)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "af944101-d68e-4dd2-984d-e27fe614e815")
+		(property "Sheetname" "Power"
+			(at 101.6 164.3884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power.kicad_sch"
+			(at 101.6 183.4646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "TfH_Case_Study"
+				(path "/8161d2f4-776e-4840-9dde-fcd11740fdc7"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 179.832 65.532)
+		(size 21.844 19.304)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d1d2c84f-2deb-44c9-acd1-c7babea22e36")
+		(property "Sheetname" "Sensors"
+			(at 179.832 64.8204 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sensors.kicad_sch"
+			(at 179.832 85.4206 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "I2C_SCL1" input
+			(at 179.832 71.628 180)
+			(uuid "5bec2ba8-72b1-47e5-8f16-440397c606d8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SENSOR_INT" output
+			(at 179.832 80.518 180)
+			(uuid "5400b036-c63d-4df7-b979-b2672bd18e0d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "I2C_SDA1" bidirectional
+			(at 179.832 75.438 180)
+			(uuid "579f0f2e-3464-4131-a141-bc60707da231")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "TfH_Case_Study"
+				(path "/8161d2f4-776e-4840-9dde-fcd11740fdc7"
+					(page "5")
 				)
 			)
 		)

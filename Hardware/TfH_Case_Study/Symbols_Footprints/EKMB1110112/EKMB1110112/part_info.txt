@@ -1,0 +1,9 @@
+Manufacturer=Panasonic
+PartNumber=EKMB1110112
+PartCategory=Integrated Circuit
+PackageCategory=Other
+PinCount=3
+Version=5.1
+Released=2021-05-21 14:41:42
+Downloaded=2025-06-09 19:40:11
+3D=Y

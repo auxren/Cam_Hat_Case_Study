@@ -1,0 +1,9 @@
+Manufacturer=Texas Instruments
+PartNumber=PCA9306DQER
+PartCategory=Integrated Circuit
+PackageCategory=Other
+PinCount=8
+Version=1.2
+Released=2021-02-05 12:17:38
+Downloaded=2025-06-09 21:25:18
+3D=Y

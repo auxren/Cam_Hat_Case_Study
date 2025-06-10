@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP EKMB1110112
+D PIR MOTION SENSOR PaPIRs WL seriesFlat square type (1uA / Digital output)
+K
+F https://b2b-api.panasonic.eu/file_stream/pids/fileversion/244803
+$ENDCMP
+#
+#End Doc Library

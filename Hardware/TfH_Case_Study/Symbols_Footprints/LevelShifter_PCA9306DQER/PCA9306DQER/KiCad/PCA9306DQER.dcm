@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP PCA9306DQER
+D Translation - Voltage Levels Dual BiDir I2C-Bus & SMBus Vltg Lev-Tran
+K
+F http://www.ti.com/lit/ds/symlink/pca9306.pdf
+$ENDCMP
+#
+#End Doc Library

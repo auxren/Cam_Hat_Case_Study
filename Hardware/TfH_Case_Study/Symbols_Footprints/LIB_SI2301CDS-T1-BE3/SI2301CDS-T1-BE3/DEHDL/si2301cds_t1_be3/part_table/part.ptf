@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'SI2301CDS_T1_BE3'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Vishay", "SI2301CDS-T1-BE3" (!) = "", "SOT95P237X112-3N", "SOT23 (3-Pin)", "78-SI2301CDS-T1-BE3", "https://www.mouser.co.uk/ProductDetail/Vishay-Siliconix/SI2301CDS-T1-BE3?qs=CiayqK2gdcJNFARNd%252BC6jg%3D%3D", "MOSFET P-CHANNEL 20-V (D-S)", "https://www.arrow.com/en/products/si2301cds-t1-be3/vishay?region=nac", "1.12 mm"
+END_PART
+
+END.

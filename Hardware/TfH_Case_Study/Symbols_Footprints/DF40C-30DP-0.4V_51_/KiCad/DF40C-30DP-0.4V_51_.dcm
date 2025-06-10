@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP DF40C-30DP-0.4V_51_
+D Mezzanine Connectors (Board to Board) SMD,P=0.4mm RoHS
+K
+F https://datasheet.lcsc.com/szlcsc/1909181103_Hirose-HRS-DF40C-30DP-0-4V-51_C429942.pdf
+$ENDCMP
+#
+#End Doc Library

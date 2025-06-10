@@ -1,0 +1,9 @@
+Manufacturer=Vishay
+PartNumber=SI2301CDS-T1-BE3
+PartCategory=Integrated Circuit
+PackageCategory=SOT23 (3-Pin)
+PinCount=3
+Version=2.1
+Released=2021-09-15 06:39:30
+Downloaded=2025-06-10 06:02:46
+3D=Y

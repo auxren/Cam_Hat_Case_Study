@@ -411,6 +411,22 @@
     [
       "8161d2f4-776e-4840-9dde-fcd11740fdc7",
       "Root"
+    ],
+    [
+      "368b1d87-32f1-4dd2-8994-8cb0b104d196",
+      "Camera"
+    ],
+    [
+      "af944101-d68e-4dd2-984d-e27fe614e815",
+      "Power"
+    ],
+    [
+      "72ca1783-031b-438d-8473-e1d656841cea",
+      "RPi"
+    ],
+    [
+      "d1d2c84f-2deb-44c9-acd1-c7babea22e36",
+      "Sensors"
     ]
   ],
   "text_variables": {}
