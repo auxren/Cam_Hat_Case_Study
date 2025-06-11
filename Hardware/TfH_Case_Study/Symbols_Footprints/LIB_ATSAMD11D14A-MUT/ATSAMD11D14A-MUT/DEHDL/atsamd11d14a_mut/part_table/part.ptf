@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'ATSAMD11D14A_MUT'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Microchip", "ATSAMD11D14A-MUT" (!) = "", "QFN50P400X400X90-25N-D", "Quad Flat No-Lead", "556-ATSAMD11D14A-MUT", "https://www.mouser.co.uk/ProductDetail/Microchip-Technology/ATSAMD11D14A-MUT?qs=lrqjml%252Bjt8etvB16%252BhIl7Q%3D%3D", "ARM Microcontrollers - MCU IC MCU 32 BIT 16KB Flash 24QFN", "https://datasheet.datasheetarchive.com/originals/distributors/DKDS41/DSANUWW0026705.pdf", "0.9 mm"
+END_PART
+
+END.

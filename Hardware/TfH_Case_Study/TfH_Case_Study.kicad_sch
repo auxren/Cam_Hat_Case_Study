@@ -5,6 +5,12 @@
 	(uuid "8161d2f4-776e-4840-9dde-fcd11740fdc7")
 	(paper "A4")
 	(lib_symbols)
+	(junction
+		(at 175.26 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dba49e01-7f72-4081-b440-8dc8ee4c5554")
+	)
 	(wire
 		(pts
 			(xy 166.37 92.71) (xy 184.15 92.71)
@@ -14,6 +20,16 @@
 			(type default)
 		)
 		(uuid "0612b03a-9593-4e55-9935-e2a09c2e38f0")
+	)
+	(wire
+		(pts
+			(xy 166.37 97.79) (xy 175.26 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e383402-fdcc-46c7-ace2-3690f3efd267")
 	)
 	(wire
 		(pts
@@ -84,6 +100,16 @@
 			(type default)
 		)
 		(uuid "8e7ad721-45ce-48f4-bc21-511e49e6727d")
+	)
+	(wire
+		(pts
+			(xy 175.26 97.79) (xy 175.26 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9cb1309-bf79-43a7-b4da-c855fd08215c")
 	)
 	(wire
 		(pts
@@ -188,8 +214,8 @@
 		)
 	)
 	(sheet
-		(at 178.054 42.926)
-		(size 53.34 34.29)
+		(at 92.964 119.126)
+		(size 22.606 11.684)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -204,7 +230,7 @@
 		)
 		(uuid "368b1d87-32f1-4dd2-8994-8cb0b104d196")
 		(property "Sheetname" "Camera"
-			(at 178.054 42.2144 0)
+			(at 92.964 118.4144 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -213,7 +239,7 @@
 			)
 		)
 		(property "Sheetfile" "Camera.kicad_sch"
-			(at 178.054 77.8006 0)
+			(at 92.964 131.3946 0)
 			(effects
 				(font
 					(size 1.27 1.27)

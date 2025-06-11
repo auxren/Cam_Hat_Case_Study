@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "ATSAMD11D14A-MUT"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2019-10-11-17:34:11)
+    (mountForm default
+        (footprintRef "QFN50P400X400X90-25N-D")
+        (spec "System")
+    )
+)

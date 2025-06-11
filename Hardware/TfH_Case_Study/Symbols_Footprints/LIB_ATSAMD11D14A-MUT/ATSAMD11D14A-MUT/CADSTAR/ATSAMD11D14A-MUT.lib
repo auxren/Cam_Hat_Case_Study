@@ -1,0 +1,16 @@
+.ATSAMD11D14A-MUT :1 ;ARM Microcontrollers - MCU IC MCU 32 BIT 16KB Flash 24QFN
+QFN50P400X400X90-25N-D
+*STM IC
+*NGS
+*PLB 1="PA02" 2="PA03" 3="PA04" 4="PA05" 5="PA06" 6="PA07" 7="PA08" 8="PA09" 9="PA10" 10="PA11" 11="PA14" 12="PA15" 13="PA16" 14="PA17" 15="PA22" 16="PA23" 17="PA27" 18="PA28/'RST'" 19="PA30" 20="PA31" 21="PA24" 22="PA25" 23="GND" 24="VDDIO/IN/ANA" 25="EP"
+*MXP 25
+*DFN ATSAMD11D14A-MUT
+~!Mouser Part Number (556-ATSAMD11D14A-MUT)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Microchip-Technology/ATSAMD11D14A-MUT?qs=lrqjml%252Bjt8etvB16%252BhIl7Q%3D%3D)
+~!Manufacturer_Name (Microchip)
+~!Manufacturer_Part_Number (ATSAMD11D14A-MUT)
+~!Link Datasheet (https://datasheet.datasheetarchive.com/originals/distributors/DKDS41/DSANUWW0026705.pdf)
+~!Height (0.9mm)
+~!3D_Model (ATSAMD11D14A-MUT)
+ATSAMD11D14A-MUT
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 7.1!U 8.1!U 9.1!U 10.1!U 11.1!U 12.1!U 18.1!U 17.1!U 16.1!U 15.1!U 14.1!U 13.1!U 25.1!U 24.1!U 23.1!U 22.1!U 21.1!U 20.1!U 19.1!U 

@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ATSAMD11D14A-MUT
+D ARM Microcontrollers - MCU IC MCU 32 BIT 16KB Flash 24QFN
+K
+F https://datasheet.datasheetarchive.com/originals/distributors/DKDS41/DSANUWW0026705.pdf
+$ENDCMP
+#
+#End Doc Library
