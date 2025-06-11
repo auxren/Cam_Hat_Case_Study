@@ -1755,7 +1755,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_01005_0402Metric"
 			(at 190.5 71.12 0)
 			(effects
 				(font
@@ -1823,7 +1823,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SMT_L4200_VIS"
+		(property "Footprint" "Footprints:SMT_L4200_VIS"
 			(at 104.14 82.55 0)
 			(effects
 				(font
@@ -1919,7 +1919,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_01005_0402Metric"
 			(at 140.97 64.77 0)
 			(effects
 				(font

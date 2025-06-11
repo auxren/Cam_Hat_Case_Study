@@ -2044,6 +2044,16 @@
 		)
 		(uuid "18f3ecbb-29e3-41a7-b175-fdf7925a4d58")
 	)
+	(text "TODO: Power sequencing for power gating RPI then Camera\n"
+		(exclude_from_sim no)
+		(at 246.888 156.972 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "28f2e296-0b18-4f44-9cf9-375bc8111ba9")
+	)
 	(text "TODO: Caps\n"
 		(exclude_from_sim no)
 		(at 208.026 125.73 0)
@@ -11450,7 +11460,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_01005_0402Metric"
 			(at 180.594 129.794 90)
 			(effects
 				(font
@@ -11520,7 +11530,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_01005_0402Metric"
 			(at 189.484 129.794 90)
 			(effects
 				(font
@@ -11722,7 +11732,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "F32Q1A7H111022"
+		(property "Footprint" "Footprints:FH1222S05SH198"
 			(at 111.76 148.59 0)
 			(effects
 				(font
@@ -11926,7 +11936,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_01005_0402Metric"
 			(at 198.374 129.794 90)
 			(effects
 				(font
@@ -12125,7 +12135,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCA9306DQER"
+		(property "Footprint" "Footprints:PCA9306DQER"
 			(at 175.26 135.89 0)
 			(effects
 				(font
@@ -12244,6 +12254,10 @@
 					(reference "IC201")
 					(unit 1)
 				)
+				(path "/8161d2f4-776e-4840-9dde-fcd11740fdc7/72ca1783-031b-438d-8473-e1d656841cea"
+					(reference "IC201")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -12275,7 +12289,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "NetTie:NetTie-2_SMD_Pad0.5mm"
 			(at 231.14 54.61 0)
 			(effects
 				(font
@@ -12409,7 +12423,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DF40C30DP04V51"
+		(property "Footprint" "Footprints:DF40C30DP04V51"
 			(at 242.57 91.44 0)
 			(effects
 				(font

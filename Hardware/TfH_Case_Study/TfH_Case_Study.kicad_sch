@@ -5,8 +5,190 @@
 	(uuid "8161d2f4-776e-4840-9dde-fcd11740fdc7")
 	(paper "A4")
 	(lib_symbols)
+	(wire
+		(pts
+			(xy 166.37 92.71) (xy 184.15 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0612b03a-9593-4e55-9935-e2a09c2e38f0")
+	)
+	(wire
+		(pts
+			(xy 175.26 113.03) (xy 130.81 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "359e786d-519c-42b9-a15b-40f568be4394")
+	)
+	(wire
+		(pts
+			(xy 130.81 100.33) (xy 125.73 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "461e294e-f793-41e2-91e9-acea38c34674")
+	)
+	(wire
+		(pts
+			(xy 87.63 92.71) (xy 93.98 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5074eef4-3e6b-4141-b90b-5c5ea984b764")
+	)
+	(wire
+		(pts
+			(xy 125.73 87.63) (xy 139.7 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68b4ae11-537e-4955-a1b3-7fc42c331b65")
+	)
+	(wire
+		(pts
+			(xy 166.37 95.25) (xy 184.15 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7050fa73-8e47-43ec-92d1-ffc1f6081dc1")
+	)
+	(wire
+		(pts
+			(xy 175.26 101.6) (xy 175.26 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88c8fb90-76ca-47db-8f7f-1b928009080e")
+	)
+	(wire
+		(pts
+			(xy 125.73 83.82) (xy 139.7 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e7ad721-45ce-48f4-bc21-511e49e6727d")
+	)
+	(wire
+		(pts
+			(xy 184.15 101.6) (xy 175.26 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c11fb470-ce18-4453-b69f-4fc286375408")
+	)
+	(wire
+		(pts
+			(xy 130.81 113.03) (xy 130.81 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd1b7cb2-beaf-4cea-bad3-9e4defcb1749")
+	)
 	(sheet
-		(at 35.814 116.586)
+		(at 93.98 78.74)
+		(size 31.75 27.94)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "1c55ccce-eafb-4f0c-9ff6-8b654fceb789")
+		(property "Sheetname" "USB-MCU"
+			(at 93.98 78.0284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "USB.kicad_sch"
+			(at 93.98 107.2646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "MCU_FROM_RPI_RX" input
+			(at 125.73 83.82 0)
+			(uuid "31f76909-6ea5-4334-9287-8f5a02bd71f1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PROX_TO_MCU_INT" input
+			(at 125.73 100.33 0)
+			(uuid "1900742d-4e37-492a-814b-24ac6d480d79")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "MCU_TO_RPI_TX" input
+			(at 125.73 87.63 0)
+			(uuid "76a57b5d-c76f-4c8e-bb11-28ec51d79f1a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "MCU_TO_RPi_LS" input
+			(at 93.98 92.71 180)
+			(uuid "f98d4aec-2eaa-41dc-acae-dd1a57d9cc4e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "TfH_Case_Study"
+				(path "/8161d2f4-776e-4840-9dde-fcd11740fdc7"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 178.054 42.926)
 		(size 53.34 34.29)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22,7 +204,7 @@
 		)
 		(uuid "368b1d87-32f1-4dd2-8994-8cb0b104d196")
 		(property "Sheetname" "Camera"
-			(at 35.814 115.8744 0)
+			(at 178.054 42.2144 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31,7 +213,7 @@
 			)
 		)
 		(property "Sheetfile" "Camera.kicad_sch"
-			(at 35.814 151.4606 0)
+			(at 178.054 77.8006 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49,7 +231,7 @@
 	)
 	(sheet
 		(at 139.7 63.5)
-		(size 26.924 42.672)
+		(size 26.67 42.672)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -82,7 +264,7 @@
 			)
 		)
 		(pin "I2C_SCL1" output
-			(at 166.624 71.882 0)
+			(at 166.37 92.71 0)
 			(uuid "998b4175-ed3e-44b3-903c-7cc87b1d6ee6")
 			(effects
 				(font
@@ -92,13 +274,43 @@
 			)
 		)
 		(pin "I2C_SDA1" bidirectional
-			(at 166.624 74.93 0)
+			(at 166.37 95.25 0)
 			(uuid "d2cab9f1-7cb6-44d3-b83f-c255974219a9")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(pin "RPi_TO_MCU_TX" input
+			(at 139.7 83.82 180)
+			(uuid "4b30abc7-1ab4-42d9-bdff-07ec8ca6a0bd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SENSOR_INT" input
+			(at 166.37 97.79 0)
+			(uuid "10950ec8-d1c8-45a5-8876-7a6c78ba325a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "RPi_FROM_MCU_RX " input
+			(at 139.7 87.63 180)
+			(uuid "695c41fc-55a8-4198-8b38-ff09ed7c68ce")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
@@ -110,8 +322,8 @@
 		)
 	)
 	(sheet
-		(at 101.6 165.1)
-		(size 33.02 17.78)
+		(at 60.96 87.63)
+		(size 26.67 10.16)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -126,7 +338,7 @@
 		)
 		(uuid "af944101-d68e-4dd2-984d-e27fe614e815")
 		(property "Sheetname" "Power"
-			(at 101.6 164.3884 0)
+			(at 60.96 86.9184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -135,12 +347,22 @@
 			)
 		)
 		(property "Sheetfile" "Power.kicad_sch"
-			(at 101.6 183.4646 0)
+			(at 60.96 98.3746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "MCU_TO_LS_RPi_5V" input
+			(at 87.63 92.71 0)
+			(uuid "3b7d972f-25e1-4b29-8a4e-3af04e9ba71e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
@@ -152,8 +374,8 @@
 		)
 	)
 	(sheet
-		(at 179.832 65.532)
-		(size 21.844 19.304)
+		(at 184.15 86.36)
+		(size 21.59 19.05)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -168,7 +390,7 @@
 		)
 		(uuid "d1d2c84f-2deb-44c9-acd1-c7babea22e36")
 		(property "Sheetname" "Sensors"
-			(at 179.832 64.8204 0)
+			(at 184.15 85.6484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -177,7 +399,7 @@
 			)
 		)
 		(property "Sheetfile" "sensors.kicad_sch"
-			(at 179.832 85.4206 0)
+			(at 184.15 106.2486 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -186,7 +408,7 @@
 			)
 		)
 		(pin "I2C_SCL1" input
-			(at 179.832 71.628 180)
+			(at 184.15 92.71 180)
 			(uuid "5bec2ba8-72b1-47e5-8f16-440397c606d8")
 			(effects
 				(font
@@ -196,7 +418,7 @@
 			)
 		)
 		(pin "SENSOR_INT" output
-			(at 179.832 80.518 180)
+			(at 184.15 101.6 180)
 			(uuid "5400b036-c63d-4df7-b979-b2672bd18e0d")
 			(effects
 				(font
@@ -206,7 +428,7 @@
 			)
 		)
 		(pin "I2C_SDA1" bidirectional
-			(at 179.832 75.438 180)
+			(at 184.15 95.25 180)
 			(uuid "579f0f2e-3464-4131-a141-bc60707da231")
 			(effects
 				(font

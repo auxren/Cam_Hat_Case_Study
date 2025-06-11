@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "SSW-120-02-G-D"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2020-07-22-11:49:16)
+    (mountForm default
+        (footprintRef "RHDR40W79P254_2X20_5131X495X851P")
+        (spec "System")
+    )
+)

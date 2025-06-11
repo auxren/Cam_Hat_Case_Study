@@ -1168,7 +1168,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "TODO: Caps\n"
+	(text "TODO: Caps?\n"
 		(exclude_from_sim no)
 		(at 202.692 59.69 0)
 		(effects
@@ -1284,7 +1284,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 76.2) (xy 125.73 76.2)
+			(xy 95.25 76.2) (xy 104.14 76.2)
 		)
 		(stroke
 			(width 0)
@@ -1314,6 +1314,26 @@
 	)
 	(wire
 		(pts
+			(xy 111.76 76.2) (xy 125.73 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ae89582-6964-4f60-a1bb-d9ce761d5346")
+	)
+	(wire
+		(pts
+			(xy 99.06 99.06) (xy 105.41 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "439a6afb-c64d-4111-a0a1-edee4d2aa4e0")
+	)
+	(wire
+		(pts
 			(xy 186.69 127) (xy 189.23 127)
 		)
 		(stroke
@@ -1331,6 +1351,16 @@
 			(type default)
 		)
 		(uuid "6a82b041-eaba-49cd-8916-435718644846")
+	)
+	(wire
+		(pts
+			(xy 196.85 68.58) (xy 201.93 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "715beb12-0a66-4704-a576-e0fceeb0232a")
 	)
 	(wire
 		(pts
@@ -1494,6 +1524,16 @@
 	)
 	(wire
 		(pts
+			(xy 113.03 99.06) (xy 125.73 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf340f44-cf26-4702-b3db-4c1c3b8b777c")
+	)
+	(wire
+		(pts
 			(xy 102.87 54.61) (xy 102.87 58.42)
 		)
 		(stroke
@@ -1531,6 +1571,16 @@
 			(type default)
 		)
 		(uuid "d80f9f28-999a-416b-9408-5b655fb5ee3b")
+	)
+	(wire
+		(pts
+			(xy 186.69 68.58) (xy 189.23 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d99cdc3a-a618-4263-80c8-d164011ff249")
 	)
 	(wire
 		(pts
@@ -1604,6 +1654,17 @@
 		)
 		(uuid "708fc9d9-23e0-4603-9375-8197a6f4ab1b")
 	)
+	(hierarchical_label "RPi_FROM_MCU_RX "
+		(shape input)
+		(at 201.93 68.58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a3649873-7f7f-4714-b781-17f6a4692237")
+	)
 	(hierarchical_label "I2C_SDA1"
 		(shape bidirectional)
 		(at 95.25 68.58 180)
@@ -1614,6 +1675,154 @@
 			(justify right)
 		)
 		(uuid "cc209356-4435-43b7-bf9a-5f0a7e8254bf")
+	)
+	(hierarchical_label "RPi_TO_MCU_TX"
+		(shape input)
+		(at 99.06 99.06 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f809f4d4-4d98-43f1-ba8a-3c054bc845d5")
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 107.95 76.2 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(uuid "52355730-8167-4f3f-88d4-befe04d42dfb")
+		(property "Reference" "R403"
+			(at 108.204 73.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 107.95 78.486 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_01005_0402Metric"
+			(at 108.204 75.184 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 107.95 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 107.95 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "efd6afaa-0da3-4f9e-b068-14e2b16f81db")
+		)
+		(pin "2"
+			(uuid "5a268636-4013-458b-b359-7dbe7af32304")
+		)
+		(instances
+			(project "TfH_Case_Study"
+				(path "/8161d2f4-776e-4840-9dde-fcd11740fdc7/72ca1783-031b-438d-8473-e1d656841cea"
+					(reference "R403")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 113.03 62.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "531cce4f-7152-4f0b-afe0-e6d31bed6070")
+		(property "Reference" "R402"
+			(at 115.57 60.9599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "3.3k"
+			(at 115.57 63.4999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_01005_0402Metric"
+			(at 114.046 62.484 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 113.03 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 113.03 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "100b507d-33f6-4d56-9de9-29c0b27b3813")
+		)
+		(pin "1"
+			(uuid "45fe1126-ccd0-4a63-825e-e146f9744259")
+		)
+		(instances
+			(project "TfH_Case_Study"
+				(path "/8161d2f4-776e-4840-9dde-fcd11740fdc7/72ca1783-031b-438d-8473-e1d656841cea"
+					(reference "R402")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -1683,34 +1892,31 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 113.03 62.23 0)
+		(at 193.04 68.58 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b794880f-0bd6-4108-b7bc-767f742fc966")
-		(property "Reference" "R402"
-			(at 115.57 60.9599 0)
+		(uuid "b2e4f833-35cf-4d72-bb15-0a9bb4e11fd8")
+		(property "Reference" "R405"
+			(at 193.294 66.04 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "3.3k"
-			(at 115.57 63.4999 0)
+		(property "Value" "0"
+			(at 193.04 70.866 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 114.046 62.484 90)
+		(property "Footprint" "Resistor_SMD:R_01005_0402Metric"
+			(at 193.294 67.564 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1719,7 +1925,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 113.03 62.23 0)
+			(at 193.04 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1728,7 +1934,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 113.03 62.23 0)
+			(at 193.04 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1736,16 +1942,16 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
-			(uuid "52144cd0-046b-4336-a887-ca9f3e3381d3")
-		)
 		(pin "1"
-			(uuid "62bb75dc-2f72-461f-9a36-8e06b6054027")
+			(uuid "5eb9a2ec-2580-439d-9dd1-ff009c89f19d")
+		)
+		(pin "2"
+			(uuid "3aad3912-b099-4e77-a8d9-132f348e436a")
 		)
 		(instances
 			(project "TfH_Case_Study"
 				(path "/8161d2f4-776e-4840-9dde-fcd11740fdc7/72ca1783-031b-438d-8473-e1d656841cea"
-					(reference "R402")
+					(reference "R405")
 					(unit 1)
 				)
 			)
@@ -1777,7 +1983,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RPi Zero 2 W:MODULE_SC1176"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x20_P2.54mm_Vertical"
 			(at 156.21 91.44 0)
 			(effects
 				(font
@@ -2036,6 +2242,73 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
+		(at 109.22 99.06 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c7f54f03-e71f-42a7-8d03-9ae49049eff5")
+		(property "Reference" "R404"
+			(at 109.474 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 109.22 101.346 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_01005_0402Metric"
+			(at 109.474 98.044 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 109.22 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 109.22 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7adcb591-5226-4d21-a31b-ea21d7cdc07d")
+		)
+		(pin "2"
+			(uuid "f6447512-3655-4579-a9a5-6985e82229de")
+		)
+		(instances
+			(project "TfH_Case_Study"
+				(path "/8161d2f4-776e-4840-9dde-fcd11740fdc7/72ca1783-031b-438d-8473-e1d656841cea"
+					(reference "R404")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
 		(at 102.87 62.23 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2062,7 +2335,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_01005_0402Metric"
 			(at 103.886 62.484 90)
 			(effects
 				(font
