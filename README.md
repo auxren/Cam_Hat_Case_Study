@@ -4,7 +4,7 @@
 
 ![RENDER](https://github.com/auxren/Cam_Hat_Case_Study/blob/main/Mechanical/Cam_Hat_Case_Study_Ortho_Render.png)
 
-This project is a hardware design submission for the Senior Electronics Hardware Engineer case study at Tools for Humanity. It involves the design of a daughterboard for the Raspberry Pi Zero 2 W that integrates:
+This was from a 72hr design challenge / case study for an interview for a Senior Electrical Engineering Role.
 
 - IMX219 camera module
 - PIR motion sensor
