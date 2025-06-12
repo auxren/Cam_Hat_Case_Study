@@ -34,34 +34,39 @@ The board matches the size and GPIO header configuration of the Raspberry Pi Zer
 
 ## Deliverables
 
-- Schematic Design (KiCad project and PDF)
-- PCB Layout (KiCad, Gerber files, and 3D model)
-- Bill of Materials (BOM) with part numbers and specifications
-- Power Supply Design Document (efficiency and regulator choice justification)
+- ✅ Schematic Design (KiCad project and PDF)
+- ✅ PCB Layout (KiCad, Gerber files, and 3D model)
+- ✅ Bill of Materials (BOM) with part numbers and specifications
+- ✅ Power Supply Design Document (efficiency and regulator choice justification)
 - Design Decision Documentation (component selection and rationale)
 
 ## Folder Structure
 
 <pre> <code>
-├── EPM
-├── Factory
+├── Cam_Hat_Case_Study_Oren_Levy_Presentation.key -- Case study presentation. Open in Apple Keynote.
+├── EPM -- For EPM documents such as schedules, build matrices, ect. Empty. 
+├── Factory -- For factory documents such as test plans. Empty. 
 ├── Firmware:Software
-│   └── TfH_Case_Study_FW_TODO.numbers
+│   └── TfH_Case_Study_FW_TODO.numbers -- Document for tracking items FW should be mindful of. Open in Apple Numbers.
 ├── Hardware
 │   ├── Block Diagram
-│   ├── Datasheets
+│   │   └── Cam_Hat_Case_Study_Block_Diagram.png -- High level block diagram
+│   ├── BOMs
+│   │   └── Cam_Hat_Case_Study_PCB_Assembly_BOM.csv -- Assembly BOM
+│   ├── Datasheets -- Datasheet PDFs for referencing
+│   ├── Pinout Docs
+│   │   └── Cam_Hat_Case_Study_Pinout_Tracker.numbers -- Document for tracking pinouts and net names. Open in Apple Numbers.
 │   ├── Power
-│   │   └── CamHat_Power_Tracker.numbers
-│   ├── TfH_Case_Study
-│   │   ├── TfH_Case_Study.kicad_pcb
-│   │   ├── TfH_Case_Study.kicad_prl
-│   │   ├── TfH_Case_Study.kicad_pro
-│   │   ├── TfH_Case_Study.kicad_sch
-│   │   └── USB.kicad_sch
-│   │   └── .....
-│   └── TfH_Case_Study_Pinout_Tracker.numbers
+│   │   └── CamHat_Power_Tracker.numbers -- Power calculator document. Open in Apple Numbers.
+│   ├── Schematic
+│   │   └── Cam_Hat_Case_Study_Schematic.pdf
+│   └── TfH_Case_Study -- KiCad Project
+├── LICENSE
 ├── Mechanical
-│   └── MCOs
-├── README.md
-└── TfH Case Study - Oren Levy.key
+│   ├── Cam_Hat_Case_Study_Model.STEP -- Model of full "product"
+│   ├── Cam_Hat_Case_Study_Ortho_Render.png
+│   ├── Cam_Hat_Case_Study_Render_Case_Ortho.png
+│   ├── Cam_Hat_Case_Study_Side_Render.png
+│   └── Subassemblies  -- Folder with dxf and stp files used for assembly
+└── README.md
 </code> </pre>
