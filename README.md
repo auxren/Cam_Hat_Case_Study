@@ -2,6 +2,8 @@
 
 ## Overview
 
+![RENDER](https://github.com/auxren/Cam_Hat_Case_Study/blob/main/Mechanical/Cam_Hat_Case_Study_Ortho_Render.png)
+
 This project is a hardware design submission for the Senior Electronics Hardware Engineer case study at Tools for Humanity. It involves the design of a daughterboard for the Raspberry Pi Zero 2 W that integrates:
 
 - IMX219 camera module
@@ -70,3 +72,7 @@ The board matches the size and GPIO header configuration of the Raspberry Pi Zer
 │   └── Subassemblies  -- Folder with dxf and stp files used for assembly
 └── README.md
 </code> </pre>
+
+
+## Block Diagram
+![BLOCK DIAGRAM](https://github.com/auxren/Cam_Hat_Case_Study/blob/main/Hardware/Block%20Diagram/Cam_Hat_Case_Study_Block_Diagram.png)
