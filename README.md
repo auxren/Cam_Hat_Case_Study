@@ -53,7 +53,7 @@ supply. Consider power losses and efficiencies.
 - ✅ PCB Layout (KiCad, Gerber files, and 3D model)
 - ✅ Bill of Materials (BOM) with part numbers and specifications
 - ✅ Power Supply Design Document (efficiency and regulator choice justification)
-- Design Decision Documentation (component selection and rationale)
+- ✅ Design Decision Documentation (component selection and rationale)
 
 ## Folder Structure
 
