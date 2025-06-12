@@ -1,0 +1,166 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "TPS22969DNYT"
+   (description "5.5V, 6A, 4.4m Load Switch with Quick Output Discharge")
+   (family "ANA")
+   (package "TPS22969DNYT")
+   (attribute "Datasheet Link" "http://www.ti.com/lit/gpn/TPS22969")
+   (attribute "Geometry.Height" "0.8mm")
+   (attribute "Mouser Part Number" "595-TPS22969DNYT")
+   (attribute "Mouser Price/Stock" "https://www.mouser.com/Search/Refine.aspx?Keyword=595-TPS22969DNYT")
+   (attribute "Manufacturer_Name" "Texas Instruments")
+   (attribute "Manufacturer_Part_Number" "TPS22969DNYT")
+   (gate
+    (symbol "TPS22969DNYT")
+    (pin "VIN_1" 1 PS)
+    (pin "VIN_2" 2 PS)
+    (pin "VBIAS" 3 PS)
+    (pin "ON" 4 PS)
+    (pin "GND" 5 PS)
+    (pin "VOUT_1" 6 PS)
+    (pin "VOUT_2" 7 PS)
+    (pin "VOUT_3" 8 PS)
+    (pin "VIN_3" 9 PS)
+   )
+  )
+  (symbol "TPS22969DNYT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 1100 100) (pt 1100 -500) (pt 200 -500) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -200) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -300) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -400) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1300 0) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1300 -100) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1300 -200) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1300 -300) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "TPS22969DNYT"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt -1.5 1.5)
+      (pt 1.5 1.5)
+      (pt 1.5 -1.5)
+      (pt -1.5 -1.5)
+      (pt -1.5 1.5))))
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -2.923 2.5)
+      (pt 2.699 2.5)
+      (pt 2.699 -2.5)
+      (pt -2.923 -2.5)
+      (pt -2.923 2.5))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt -1.5 1.5)
+      (pt 1.5 1.5))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt -1.5 -1.5)
+      (pt 1.5 -1.5))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt -2.1 0.975)
+      (arc (pt -2.100 0.975) (pt -2.300 0.875) (pt -2.100 1.075) (start 180.0) (sweep .0))
+      (pt -2.3 0.975)
+      (arc (pt -2.300 0.975) (pt -2.300 0.875) (pt -2.100 1.075) (start 180.0) (sweep 180.0))
+      (pt -2.1 0.975))))
+   (leg 1 (pt -1.400 0.975) (padstack 0))
+   (leg 2 (pt -1.400 0.325) (padstack 0))
+   (leg 3 (pt -1.400 -0.325) (padstack 0))
+   (leg 4 (pt -1.400 -0.975) (padstack 0))
+   (leg 5 (pt 1.399 -0.975) (padstack 0))
+   (leg 6 (pt 1.399 -0.225) (padstack 6))
+   (leg 7 (pt 1.399 0.325) (padstack 7))
+   (leg 8 (pt 1.399 0.875) (padstack 8))
+   (leg 9 (pt -0.000 -0.000) (padstack 9))
+   (padstack 0
+    (plated false)
+    (pad (layer TCOP) (rectf 0.300 0.600 0 0 0.000))
+   )
+   (padstack 6
+    (plated false)
+    (pad (layer TCOP) (rectf 0.500 0.600 0 0 0.000))
+   )
+   (padstack 7
+    (plated false)
+    (pad (layer TCOP) (square 0.600))
+   )
+   (padstack 8
+    (plated false)
+    (pad (layer TCOP) (rectf 0.500 0.600 0 0 0.000))
+   )
+   (padstack 9
+    (plated false)
+    (pad (layer TCOP) (rectf 1.600 2.400 0 0 90.000))
+   )
+   (model "TPS22969DNYT.stp"
+    (euler 0 0 0)
+    (offset 0 0 0)
+   )
+  )
+ )
+)

@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TPS22969DNYT
+D 5.5V, 6A, 4.4m Load Switch with Quick Output Discharge
+K
+F http://www.ti.com/lit/gpn/TPS22969
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'TPS22969DNYT'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Texas Instruments", "TPS22969DNYT" (!) = "", "TPS22969DNYT", "Other", "595-TPS22969DNYT", "https://www.mouser.com/Search/Refine.aspx?Keyword=595-TPS22969DNYT", "5.5V, 6A, 4.4m Load Switch with Quick Output Discharge", "http://www.ti.com/lit/gpn/TPS22969", "0.8 mm"
+END_PART
+
+END.

@@ -189,9 +189,11 @@
       "track_widths": [
         0.0,
         0.0,
+        0.0,
         0.15,
         0.2,
         0.3,
+        0.5,
         2.2
       ],
       "tuning_pattern_settings": {
@@ -550,7 +552,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "CapHatSTEPV1.step",
       "svg": "",
       "vrml": ""
     },
@@ -673,10 +675,6 @@
     [
       "8161d2f4-776e-4840-9dde-fcd11740fdc7",
       "Root"
-    ],
-    [
-      "368b1d87-32f1-4dd2-8994-8cb0b104d196",
-      "Camera"
     ],
     [
       "af944101-d68e-4dd2-984d-e27fe614e815",

@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "TPS22969DNYT"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2019-04-30-09:46:18)
+    (mountForm default
+        (footprintRef "TPS22969DNYT")
+        (spec "System")
+    )
+)
