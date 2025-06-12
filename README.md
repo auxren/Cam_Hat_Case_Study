@@ -59,8 +59,7 @@ supply. Consider power losses and efficiencies.
 
 <pre> <code>
 ├── Cam_Hat_Case_Study_Oren_Levy_Presentation.key -- Case study presentation. Open in Apple Keynote.
-├── EPM -- For EPM documents such as schedules, build matrices, ect. Empty. 
-├── Factory -- For factory documents such as test plans. Empty. 
+├── Cam_Hat_Case_Study_Oren_Levy_Presentation.pdf
 ├── Firmware:Software
 │   └── TfH_Case_Study_FW_TODO.numbers -- Document for tracking items FW should be mindful of. Open in Apple Numbers.
 ├── Hardware
