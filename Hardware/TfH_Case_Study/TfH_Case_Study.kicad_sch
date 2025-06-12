@@ -5,6 +5,16 @@
 	(uuid "8161d2f4-776e-4840-9dde-fcd11740fdc7")
 	(paper "A4")
 	(lib_symbols)
+	(text "Camera Hat For Raspberry Pi Zero 2 W\nA Case Study By Oren Levy\nMore Info Here: https://github.com/auxren/Cam_Hat_Case_Study/"
+		(exclude_from_sim no)
+		(at 146.05 54.61 0)
+		(effects
+			(font
+				(size 5.08 5.08)
+			)
+		)
+		(uuid "8cc9f13d-fc6b-4251-b513-73f6b937defb")
+	)
 	(junction
 		(at 175.26 101.6)
 		(diameter 0)
@@ -214,8 +224,8 @@
 		)
 	)
 	(sheet
-		(at 139.7 63.5)
-		(size 26.67 42.672)
+		(at 139.7 77.47)
+		(size 26.67 24.13)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -230,7 +240,7 @@
 		)
 		(uuid "72ca1783-031b-438d-8473-e1d656841cea")
 		(property "Sheetname" "RPi"
-			(at 139.7 62.7884 0)
+			(at 139.7 76.7584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -239,7 +249,7 @@
 			)
 		)
 		(property "Sheetfile" "RPi.kicad_sch"
-			(at 139.7 106.7566 0)
+			(at 139.7 102.1846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
