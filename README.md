@@ -6,6 +6,8 @@
 
 This was from a 72hr design challenge / case study for an interview for a Senior Electrical Engineering Role.
 
+## Requirements
+
 - IMX219 camera module
 - PIR motion sensor
 - Ambient light sensor
