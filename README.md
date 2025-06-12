@@ -8,13 +8,24 @@ This was from a 72hr design challenge / case study for an interview for a Senior
 
 ## Requirements
 
-- IMX219 camera module
-- PIR motion sensor
-- Ambient light sensor
-- Power regulation circuitry
-- GPIO and CSI interfacing
+- Camera Module: Integrate the IMX219 camera module (IQL-IMX219/FF).
+= Motion Detection: Integrate a suitable PIR motion sensor to detect motion to trigger the
+camera.
+- Lighting Adjustment: Integrate a suitable ambient light sensor that will be later used to
+adjust camera settings based on lighting conditions.
+- Power Supply: Design a power supply circuit to ensure stable operation. Choose and
+justify the power management components used. Use at least one switching regulator in
+your design.
+- Form Factor: Ensure the daughter board fits within the dimensions of the Raspberry Pi
+Zero 2 W (65mm x 30mm).
+- Interconnection: The daughter board will connect to the Raspberry Pi Zero 2 W through
+the GPIO header. All components, including the camera module, PIR sensor, and
+ambient light sensor, must be placed on the daughter board. Additionally, include an FFC
+connector on the edge of the daughter board to allow the user to connect an FFC cable
+between the daughter board and the CSI interface of the Raspberry Pi Zero W.
+- Power Supply: Assume the Raspberry Pi will be powered with a 5V 3A DC power
+supply. Consider power losses and efficiencies.
 
-The board matches the size and GPIO header configuration of the Raspberry Pi Zero 2 W (65mm x 30mm).
 
 ## Features
 
