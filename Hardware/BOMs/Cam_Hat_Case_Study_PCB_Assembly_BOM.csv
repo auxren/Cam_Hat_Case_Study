@@ -1,0 +1,27 @@
+Reference,Qty,Value,DNP,Footprint,Datasheet,Manufacturer_Name,Manufacturer_Part_Number,Description
+"C201,C303",2,22uF,,Capacitor_SMD:C_0402_1005Metric,~,Murata,GRM158R61A226ME15J,Multilayer Ceramic Capacitors MLCC - SMD/SMT 22 uF 10 VDC 20% 0402 X5R
+C202,1,1uF,,Capacitor_SMD:C_0402_1005Metric,~,Kyocera,04023D105KAT2A,
+"C301,C601,C603",3,4.7uF,,Capacitor_SMD:C_0402_1005Metric,~,Kyocera,0402YD475MAT2A,Multilayer Ceramic Capacitors MLCC - SMD/SMT KGM05CR51C475MH NEW GLOBAL PN 16V 4.7uF A 581-KGM05CR51C475MH
+C401,1,100uF,,Capacitor_SMD:C_0805,~,Kyocera,08056D107MAT2A,Multilayer Ceramic Capacitors MLCC - SMD/SMT KGM21AR50J107MU NEW GLOBAL PN 6.3V 100uF A 581-KGM21AR50J107MU
+C402,1,10uF,,Capacitor_SMD:C_0603_1608Metric,~,Kyocera,0603YD106MAT2A,Multilayer Ceramic Capacitors MLCC - SMD/SMT KGM15CR51C106MT NEW GLOBAL PN A 581-KGM15CR51C106MT
+C502,1,2.2uF,,Capacitor_SMD:C_0402_1005Metric,~,Kyocera,0402ZD225MAT2A,Multilayer Ceramic Capacitors MLCC - SMD/SMT KGM05AR51A225MH NEW GLOBAL PN 10V 2.2uF A 581-KGM05AR51A225MH
+"C602,C604,C403,C501",4,100nF,,Capacitor_SMD:C_0402_1005Metric,~,Kyocera,0402X7R104KT7AT,Multilayer Ceramic Capacitors MLCC - SMD/SMT 16V 0.1uF X7R 10%
+D601,1,PESD5V0S1UL,,Diode_SMD:D_SOD-882,https://assets.nexperia.com/documents/data-sheet/PESD5V0S1UL.pdf,Nexperia,PESD5V0S1UL,"Unidirectional ESD protection diode, 5V, SOD-882"
+"FB601,FB602",2,FerriteBead,,Capacitor_SMD:C_0402_1005Metric,~,TDK,MPZ1005S330HT000,Ferrite Beads 33OHM 3a 22mohms 1005 FERRITE CHIP
+IC201,1,TPS22969DNYT,,TPS22969DNYT,http://www.ti.com/lit/gpn/TPS22969,Texas Instruments,TPS22969DNYT,"5.5V, 6A, 4.4m Load Switch with Quick Output Discharge"
+IC601,1,ATSAMD11D14A-MUT,,Footprints:QFN50P400X400X90-25N-D,https://datasheet.datasheetarchive.com/originals/distributors/DKDS41/DSANUWW0026705.pdf,Microchip,ATSAMD11D14A-MUT,ARM Microcontrollers - MCU IC MCU 32 BIT 16KB Flash 24QFN
+J601,1,USB_C_Receptacle_USB2.0_14P,,Connector_USB:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal,https://www.usb.org/sites/default/files/documents/usb_type-c.zip,Same Sky,UJ32-C-H-G-SMT-6-P24-TR,"USB Connectors Type C, 3.2, Horizontal, Gold Flash, Surface Mount, 24 pin, T&R"
+L301,1,1uH,,Inductor_SMD:L2x1_6,~,Murata,LQM2HPN1R0MG0,"1.0 µH, 1.9 A Isat, 33 mΩ DCR"
+Q501,1,Si2319CDS,,Package_TO_SOT_SMD:SOT-23,http://www.vishay.com/docs/66709/si2319cd.pdf,Vishay,Si2319CDS,"-4.4A Id, -40V Vds, P-Channel MOSFET, SOT-23"
+"R302,R310,R312,R314,R402,R403,R405",7,0Ω 0402,,Resistor_SMD:R_0402_1005Metric,~,Vishay,CRCW04020000Z0EDC,Thick Film Resistors - SMD 1/16watt 0ohm Commercial Use
+R304,1,453k,,Resistor_SMD:R_0402_1005Metric,~,Vishay,CRCW0402453KFKTD,Thick Film Resistors - SMD 1/16watt 453Kohms 1%
+R305,1,100k,,Resistor_SMD:R_0402_1005Metric,~,Panasonic ,ERJ-S02J104X,Thick Film Resistors - SMD 0402 100Kohms 1%
+R319,1,0Ω 0402,DNP,Resistor_SMD:R_0402_1005Metric,~,Vishay,CRCW04020000Z0EDC,Thick Film Resistors - SMD 1/16watt 0ohm Commercial Use
+"R401,R404",2,3.3k 0402,,Resistor_SMD:R_0402_1005Metric,~,Yageo,RC0402FR-7D3K3L,Thick Film Resistors - SMD 0402 3.3Kohms 1%
+R501,1,2.7k 0402,,Resistor_SMD:R_0402_1005Metric,~,Panasonic,ERA-2ARC272X,Thin Film Resistors - SMD 0402 Thin film chip resistor
+R502,1,1k 0402,,Resistor_SMD:R_0402_1005Metric,~,SEI Stackpole,RNCE0402BTE1K00,Thin Film Resistors - SMD 1KOhms 0402 25ppm 1/16W 50V 0.1% Hi Temp/Stability
+"R601,R602",2,5.1k 0402,,Resistor_SMD:R_0402_1005Metric,~,Kamaya,RMC1/16SK5111FTH,Thick Film Resistors - SMD 0402 5K11 1%
+U301,1,TLV62568ADRL,,Package_TO_SOT_SMD:SOT-563,https://www.ti.com/lit/gpn/tlv62568a,Texas Instruments,TLV62568ADRL,"High Efficiency Synchronous Buck Converter with forced PWM, Adjustable Output 0.6V-5.5V, 1A, SOT-563-6"
+U401,1,Raspberry Pi Zero 2 W,,Connector_PinHeader_2.54mm:PinHeader_2x20_P2.54mm_Vertical,,Molex,90131-0780,Headers & Wire Housings 2.54MM CGRIDIII HDR 40P VERT DR SEL AU
+U501,1,VCNL4200,,Footprints:SMT_L4200_VIS,VCNL4200,Vishay,VCNL4200,High Sensitivity Long Distance Proximity and Ambient Light Sensor With I2C Interface
+U601,1,TPD4E05U06DQA,,Package_SON:USON-10_2.5x1.0mm_P0.5mm,https://www.ti.com/lit/ds/symlink/tpd4e05u06.pdf,Texas Instruments,TPD4E05U06DQA,"4-Channel ESD Protection for Super-Speed USB 3.0 Interface, USON-10"
