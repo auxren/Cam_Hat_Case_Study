@@ -3677,6 +3677,16 @@
 	)
 	(wire
 		(pts
+			(xy 142.24 104.14) (xy 166.37 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "310560cb-e6fa-495d-81b0-1f4590d28c47")
+	)
+	(wire
+		(pts
 			(xy 228.6 62.23) (xy 228.6 66.04)
 		)
 		(stroke
@@ -3888,6 +3898,16 @@
 	)
 	(wire
 		(pts
+			(xy 133.35 101.6) (xy 166.37 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d434264-1961-4423-9147-48b201a83467")
+	)
+	(wire
+		(pts
 			(xy 55.88 172.72) (xy 81.28 172.72)
 		)
 		(stroke
@@ -4008,7 +4028,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 101.6) (xy 166.37 101.6)
+			(xy 115.57 101.6) (xy 125.73 101.6)
 		)
 		(stroke
 			(width 0)
@@ -4139,7 +4159,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 104.14) (xy 166.37 104.14)
+			(xy 118.11 104.14) (xy 134.62 104.14)
 		)
 		(stroke
 			(width 0)
@@ -6124,6 +6144,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_US")
+		(at 129.54 101.6 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6cee74fc-0f5a-4e73-bf03-ebbd9e917bdf")
+		(property "Reference" "R1"
+			(at 129.54 95.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "200"
+			(at 129.54 97.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 129.794 100.584 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 129.54 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 129.54 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4f78af83-a40a-430a-bb62-7857ce7efa6f")
+		)
+		(pin "2"
+			(uuid "3caf07ad-fe67-4cf6-b767-08cf022d9cd1")
+		)
+		(instances
+			(project "TfH_Case_Study"
+				(path "/8161d2f4-776e-4840-9dde-fcd11740fdc7/1c55ccce-eafb-4f0c-9ff6-8b654fceb789"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 63.5 120.65 0)
 		(unit 1)
@@ -6860,6 +6947,73 @@
 			(project "TfH_Case_Study"
 				(path "/8161d2f4-776e-4840-9dde-fcd11740fdc7/1c55ccce-eafb-4f0c-9ff6-8b654fceb789"
 					(reference "#PWR0603")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 138.43 104.14 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c0f8a647-597e-4811-a8ed-e13bdb3930ba")
+		(property "Reference" "R2"
+			(at 138.43 97.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "200"
+			(at 138.43 100.33 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 138.684 103.124 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 138.43 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 138.43 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4b743994-9c1e-4954-b510-215be9acd7a1")
+		)
+		(pin "2"
+			(uuid "8a92a21c-622e-4441-896a-aaab1fd432ba")
+		)
+		(instances
+			(project "TfH_Case_Study"
+				(path "/8161d2f4-776e-4840-9dde-fcd11740fdc7/1c55ccce-eafb-4f0c-9ff6-8b654fceb789"
+					(reference "R2")
 					(unit 1)
 				)
 			)
