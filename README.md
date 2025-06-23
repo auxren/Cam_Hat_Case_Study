@@ -53,14 +53,13 @@ supply. Consider power losses and efficiencies.
 - ✅ PCB Layout (KiCad, Gerber files, and 3D model)
 - ✅ Bill of Materials (BOM) with part numbers and specifications
 - ✅ Power Supply Design Document (efficiency and regulator choice justification)
-- Design Decision Documentation (component selection and rationale)
+- ✅ Design Decision Documentation (component selection and rationale)
 
 ## Folder Structure
 
 <pre> <code>
 ├── Cam_Hat_Case_Study_Oren_Levy_Presentation.key -- Case study presentation. Open in Apple Keynote.
-├── EPM -- For EPM documents such as schedules, build matrices, ect. Empty. 
-├── Factory -- For factory documents such as test plans. Empty. 
+├── Cam_Hat_Case_Study_Oren_Levy_Presentation.pdf
 ├── Firmware:Software
 │   └── TfH_Case_Study_FW_TODO.numbers -- Document for tracking items FW should be mindful of. Open in Apple Numbers.
 ├── Hardware
